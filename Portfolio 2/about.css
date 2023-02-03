@@ -1,0 +1,157 @@
+.about-body { 
+    background-image: url("./wp3946440-full-hd-wallpapers.jpg");
+    color: white;
+}
+.first-header {
+    font-size: 2rem;
+}
+.navbar{
+    display: inline-block;
+    border-bottom: 15px;
+}
+.navlist > li, 
+.navlist,
+.logo,
+.navbar{
+    display: inline-block;
+}
+.navlist{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.navlist > li > a {
+    text-decoration: none;
+    margin: 5px;
+    border: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navlist > li :hover,
+.navlist > li :active{
+    color: #49a6e9;
+    text-decoration: none;
+}
+
+.logo{
+    text-align: left;
+    text-transform: uppercase;
+    color: #49a6e9;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 20px;
+    margin-top: 15px;
+    margin-left: 15rem;
+}
+.main{
+    position: center;
+    float: center;
+    margin-top: 150px;
+    margin-left: 20rem;
+}
+.intro{
+    font-weight: bold;
+    border-left: 40px;
+    float: center;
+    color: darkkhaki;
+    
+}
+.name{
+    float: center;
+    font-weight: bolder;
+    color: #49a6e9;
+    font-size: 30px;
+}
+.work{
+    color: white;
+    font-size: medium;
+    float: center;
+}
+span{
+    color: white;
+}
+.picture{
+    margin-left: 25rem;
+    width: 25%;
+    max-height: 25%;
+    border-radius: 50%;
+    -webkit-animation-name: rollIn; 
+    animation-name: rollIn;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+.currencyconverter{
+    background-color: beige;
+    padding: 20px 5px;  
+}
+@-webkit-keyframes rollIn 
+    0% { 
+       opacity: 0; 
+       -webkit-transform: translateX(-100%) rotate(-120deg); 
+    }
+    100% { 
+       opacity: 1; 
+       -webkit-transform: translateX(0px) rotate(0deg); 
+  
+  
+ }
+ 
+ @keyframes rollIn {
+    0% { 
+       opacity: 0; 
+       transform: translateX(-100%) rotate(-120deg); 
+    }
+    100% { 
+       opacity: 1; 
+       transform: translateX(0px) rotate(0deg); 
+    }
+ }
+ .rollIn {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn;
+ }
+.dropbtn {
+    background-color: transparent;
+    color: #49a6e9;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    text-transform: uppercase;
+} 
+.dropdown {  
+    display: inline-block;  
+    position: relative  
+}  
+.dropdown-content {  
+    position: absolute;  
+    background-color: lightgrey;  
+    min-width: 200px;  
+    display: none;  
+    z-index: 1;  
+}  
+.dropdown-content a {  
+    color: black;  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+}  
+.dropdown-content a:hover {  
+    background-color: #49a6e9;  
+}  
+.dropdown:hover .dropdown-content {  
+    display: block;  
+}  
+.dropdown:hover .dropbtn {  
+    background-color: transparent; 
+    color: white;
+}  
